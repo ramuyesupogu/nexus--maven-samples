@@ -197,8 +197,8 @@ under the License.
       <repositories>
         <repository>
           <id>jdk14</id>
-          <name>Repository for JDK 1.4 builds</name>
-          <url>http://www.myhost.com/maven/jdk14</url>
+          <name>Repository for JDK 11.0.15 builds</name>
+          <url>http://www.myhost.com/maven/jdk11</url>
           <layout>default</layout>
           <snapshotPolicy>always</snapshotPolicy>
         </repository>
@@ -246,8 +246,8 @@ under the License.
      <repositories>
        <repository>
          <id>nexus-snapshot-repo</id>
-         <name>your custom repo</name>
-         <url>http://35.188.22.253:8081/repository/maven-snapshots/</url>
+         <name>maven2-snapshot-aiff</name>
+         <url>http://localhost:8081/repository/maven2-snapshot-aiff/</url>
        </repository>
 	   
      </repositories>
@@ -257,8 +257,8 @@ under the License.
      <repositories>
        <repository>
          <id>nexus-release-repo</id>
-         <name>your custom repo</name>
-         <url>http://35.202.104.9:8081/repository/maven-releases/</url>
+         <name>maven2-aiff-release</name>
+         <url>http://localhost:8081/repository/maven2-aiff-release/</url>
        </repository>
      </repositories>
    </profile>
