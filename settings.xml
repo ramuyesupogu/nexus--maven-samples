@@ -115,7 +115,7 @@ under the License.
      |       used together.
      |-->
     <server>
-      <id>nexusdeploymentrepo</id>
+      <id>nexus1</id>
       <username>admin</username>
       <password>admin</password>
     </server>
@@ -245,7 +245,7 @@ under the License.
      <id>snapshot</id>
      <repositories>
        <repository>
-         <id>nexus-snapshot-repo</id>
+         <id>nexus1</id>
          <name>maven2-snapshot-aiff</name>
          <url>http://localhost:8081/repository/maven2-snapshot-aiff/</url>
        </repository>
@@ -256,7 +256,7 @@ under the License.
      <id>release</id>
      <repositories>
        <repository>
-         <id>nexus-release-repo</id>
+         <id>nexus1</id>
          <name>maven2-aiff-release</name>
          <url>http://localhost:8081/repository/maven2-aiff-release/</url>
        </repository>
