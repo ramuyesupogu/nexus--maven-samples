@@ -246,8 +246,8 @@ under the License.
      <repositories>
        <repository>
          <id>nexus1</id>
-         <name>maven2-snapshot-aiff</name>
-         <url>http://localhost:8081/repository/maven2-snapshot-aiff/</url>
+         <name>Flying-Eagle-Snapshot</name>
+         <url>http://192.168.0.102:8081/repository/Flying-Eagle-Snapshot/</url>
        </repository>
 	   
      </repositories>
@@ -257,8 +257,8 @@ under the License.
      <repositories>
        <repository>
          <id>nexus1</id>
-         <name>maven2-aiff-release</name>
-         <url>http://localhost:8081/repository/maven2-aiff-release/</url>
+         <name>Flying-Eagle-Release</name>
+         <url>http://192.168.0.102:8081/repository/Flying-Eagle-Release/</url>
        </repository>
      </repositories>
    </profile>
